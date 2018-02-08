@@ -1,49 +1,162 @@
 <!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Tvetik-Semicvetik</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="manifest" href="site.webmanifest">
-        <link rel="apple-touch-icon" href="icon.png">
-        <!-- Place favicon.ico in the root directory -->
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Color-Flower</title>
+    <meta name="description" content="Сайт группы №2 десткого сада Журавушка">
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-        <!--[if lte IE 9]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-        <div class="wrap">
-            <div class="container">
-                <header>
-                    <a href=""><img src="img/flower.png"/></a>
-                    <a href=""><div class="siteName">
-                        <h2>Группа №2</h2>
-                        <h1>Цветик-семицветик</h1>
-                    </div></a>
-                    <div class="contacts">
-                        <p><a href="mailto:example@example.ru">example@example.ru</a></p>
-                        <p><a href='tel:8000000000'>8-00-00-000</a></p>
-                    </div>
-                </header>
-                <nav>
-                    <ul>
-                        <li><a href="">Главная</a></li>
-                        <li><a href="">Новости</a></li>
-                        <li><a href="">Занятия</a></li>
-                        <li><a href="">Мастерская</a></li>
-                        <li><a href="">Группа</a></li>
-                        <li><a href="">Родителям</a></li>
-                        <li><a href="">Детям</a></li>
-                    </ul>
-                </nav>
+    <meta name="Keywords" content="Журавушка,Цветик-семицветик, детский сад, группа №2, дети">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/jquery-3.2.1.min.js"></script>
+  <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/mainJS.js"></script>
+    <link rel="stylesheet" href="tabs/maintab.css">
+
+</head>
+<body>
+
+<!--[if lt IE 9]>
+<script>
+    var e = ("article,aside,figcaption,figure,footer,header,hgroup,nav,section,time").split(',');
+    for (var i = 0; i < e.length; i++) {
+        document.createElement(e[i]);
+    }
+</script>
+<![endif]-->
+<div class="wrap">
+    <div class="container">
+        <header>
+            <a href="index.html"><img src="img/flower.png" alt="flower"/></a>
+            <a href="index.html">
+                <div class="siteName">
+                    <h2>Группа №2</h2>
+                    <h1>Цветик-семицветик</h1>
+                </div>
+            </a>
+            <div class="contacts">
+                <p><a href="mailto:example@example.ru">example@example.ru</a></p>
+                <p><a href='tel:8000000000'>8-00-00-000</a></p>
             </div>
+        </header>
+        <div class="navHidden" style="text-align: center;">
+            <span>&#9776</span>
+        </div>
+        <nav class="computerNav tabs_block">
+            <ul>
+                <li><a class="active tabSelect" href="#" numberTab="1">Главная</a></li>
+                <li><a class="tabSelect" href="#" numberTab="2">Новости</a></li>
+                <li><a class="tabSelect" href="#" numberTab="3">Занятия</a></li>
+                <li><a class="tabSelect" href="#" numberTab="4">Мастерская</a></li>
+                <li><a class="tabSelect" href="#" numberTab="5">Группа</a></li>
+                <li><a class="tabSelect" href="#" numberTab="6">Родителям</a></li>
+                <li><a class="tabSelect" href="#" numberTab="7">Детям</a></li>
+            </ul>
+        </nav>
+        <div class="contentBox">
+           <!--Главная-->
+             <section id="mainidcontent1" class="tabContent visible">
+                 <h3>
+                     Группа "Цветик-семицветик" детского сада Журавушка города Королев
+                 </h3>
 
+                 <p>
+                     Вот,какая замечательная у нас группа:)
+                 </p>
+             </section>
+            <!--Новости-->
+             <section id="mainidcontent2" class="tabContent ">
+                 <h3>
+                     Группа "Цветик-семицветик" детского сада Журавушка города Королев
+                 </h3>
+
+                 <p>
+                     Тут будут новости
+                 </p>
+             </section>
+             <!--&#45;&#45;&#45;Занятия--->
+             <section id="mainidcontent3" class="tabContent">
+                 <h3>
+                     Группа "Цветик-семицветик" детского сада Журавушка города Королев
+                 </h3>
+
+                 <p>
+                     Тут будут наши занятия
+                 </p>
+             </section>
+
+             <!--&#45;&#45;&#45;Мастерская-->
+             <section  id="mainidcontent4" class="tabContent">
+                 <h3>
+                     Группа "Цветик-семицветик" детского сада Журавушка города Королев
+                 </h3>
+
+                 <p>
+                     Тут будут наши поделки
+                 </p>
+             </section>
+
+             <!--&#45;&#45;&#45;Группа--->
+             <section id="mainidcontent5"  class="tabContent">
+                 <h3>
+                     Группа "Цветик-семицветик" детского сада Журавушка города Королев
+                 </h3>
+
+                 <p>
+                     Фото нашей группы
+                 </p>
+             </section>
+
+             <!--&#45;&#45;&#45;Родителям--->
+             <section  id="mainidcontent6" class="tabContent">
+                 <h3>
+                     Группа "Цветик-семицветик" детского сада Журавушка города Королев
+                 </h3>
+
+                 <p>
+                     Полезная инфо для родителей
+                 </p>
+             </section>
+
+             <!--Детям--->
+             <section id="mainidcontent7" class="tabContent">
+                 <h3>
+                     Группа "Цветик-семицветик" детского сада Журавушка города Королев
+                 </h3>
+
+                 <p>
+                    Понятия не имею, что можно сюда поместить, они не умеют читать:)
+                 </p>
+             </section>
+         </div>
+     </div>
+
+    </div>
+<footer>
+
+    <div class="grass"></div>
+    <div class="footerContainer">
+
+        <div class="adress col">
+            <p> Наши координаты:</p>
+            <p>Королев Юбилейный ул ....</p>
         </div>
 
-    </body>
+
+        <div class="contact col">
+            <p>tel:08978686</p>
+            <p>e-mail:example@example.ru</p>
+            <p>WApp: 0989879878</p>
+        </div>
+
+    </div>
+</footer>
+</body>
 </html>
