@@ -393,6 +393,11 @@ footer .contact:after{
             .footerContainer{
                 width: 550px;
             }
+            .col{
+                border-right: 0 !important;
+                border-bottom: 1px solid white;
+                width:100%;
+            }
         }
         @media (max-width: 600px) {
             .container{

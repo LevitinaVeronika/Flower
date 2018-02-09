@@ -5,3 +5,44 @@ h3{
 }
 p{color:#3b6cf2;
     margin:30px;}
+aside{
+    float:left;
+    width:25%;
+    border-right:2px solid #b163a0;
+    border-left:2px solid #b163a0;'
+    margin-right:20px;
+    border-radius:20px;
+}
+aside ul{
+    margin: 0;
+    padding: 0;
+}
+aside li{
+    list-style: none;
+    color:#ff819d;
+
+    text-align: center;
+}
+aside li a{
+    text-decoration: none;
+    display:block;
+    padding: 10px;
+    color:#ff819d;
+    border-radius: 20px;
+}
+aside li a:hover{
+    background: rgba(255,255,255,0.3);
+}
+aside li a:active{
+    background: rgba(255,255,255,0.5);
+    color:#ff819d;
+}
+.content{
+    width: 70%;
+    margin-left:20px;
+    float:left;}
+.content:after{
+    content: '';
+    clear: both;
+    display: table;
+}
