@@ -15,149 +15,6 @@ body {
     width: 100%;
 }
 
-@media (max-width: 1200px) {
-    .wrap {
-        background-size: 400px auto;
-    }
-
-    .container {
-        width: 970px;
-    }
-
-    header {
-        height: 200px;
-    }
-
-    header img {
-        height: 100px;
-
-        vertical-align: top;
-    }
-    .footerContainer{
-        width: 970px;
-    }
-}
-@media (max-width: 992px) {
-    .wrap {
-        background-size: 300px auto;
-    }
-
-    .container {
-        width: 760px;
-    }
-
-    header {
-        height: 130px;
-
-    }
-
-    header img {
-        height: 100px;
-        vertical-align: top;
-    }
-    .footerContainer{
-        width: 760px;
-    }
-}
-@media (max-width: 768px) {
-    .wrap {
-        background-size: 250px auto;
-
-    }
-
-    .container {
-        width: 550px;
-
-    }
-
-    header {
-        height: 110px;
-
-    }
-
-    header img {
-        height: 70px;
-
-        vertical-align: top;
-    }
-
-    .siteName h2 {
-        margin: 0;
-    }
-
-    .siteName h1 {
-        margin: 0;
-    }
-
-    header img {
-        margin: 0;
-    }
-    .footerContainer{
-        width: 550px;
-    }
-    .col{
-        border-right: 0 !important;
-        border-bottom: 1px solid white;
-        width:100%;
-    }
-}
-@media (max-width: 600px) {
-    .container{
-
-        width: 450px;
-
-    }
-    header{
-        height:90px;
-    }
-
-    header .contacts{
-        display:none;
-    }
-    .siteName h2{
-        margin:0;
-        font-size:12px;
-    }
-    .siteName h1{
-        margin:0;
-
-        font-size:20px
-    }
-    header img{
-        margin:0;
-    }
-    .footerContainer{
-        width: 450px;
-    }
-    header{
-        margin-bottom:40px;
-    }
-
-    .col{
-        border-right: 0 !important;
-        border-bottom: 1px solid white;
-        width:100%;
-    }
-}
-
-@media (max-width: 450px) {
-    .container{
-
-        width: 280px;
-    }
-    .footerContainer{
-        width: 280px;
-    }
-    header{
-        margin-bottom:40px;
-    }
-    .col{
-        border-right: 0 !important;
-        border-bottom: 1px solid white;
-        width:100%;
-    }
-}
-
 .wrap {
     background-image: url(../img/header.jpg);
     background-repeat: repeat-x;
@@ -456,6 +313,149 @@ footer .contact:after{
     display: table;
 }
 
+
+@media (max-width: 1200px) {
+    .wrap {
+        background-size: 400px auto;
+    }
+
+    .container {
+        width: 970px;
+    }
+
+    header {
+        height: 200px;
+    }
+
+    header img {
+        height: 100px;
+
+        vertical-align: top;
+    }
+    .footerContainer{
+        width: 970px;
+    }
+}
+@media (max-width: 992px) {
+    .wrap {
+        background-size: 300px auto;
+    }
+
+    .container {
+        width: 760px;
+    }
+
+    header {
+        height: 130px;
+
+    }
+
+    header img {
+        height: 100px;
+        vertical-align: top;
+    }
+    .footerContainer{
+        width: 760px;
+    }
+}
+@media (max-width: 768px) {
+    .wrap {
+        background-size: 250px auto;
+
+    }
+
+    .container {
+        width: 550px;
+
+    }
+
+    header {
+        height: 110px;
+
+    }
+
+    header img {
+        height: 70px;
+
+        vertical-align: top;
+    }
+
+    .siteName h2 {
+        margin: 0;
+    }
+
+    .siteName h1 {
+        margin: 0;
+    }
+
+    header img {
+        margin: 0;
+    }
+    .footerContainer{
+        width: 550px;
+    }
+    .col{
+        border-right: 0 !important;
+        border-bottom: 1px solid white;
+        width:100%;
+    }
+}
+@media (max-width: 600px) {
+    .container{
+
+        width: 450px;
+
+    }
+    header{
+        height:90px;
+    }
+
+    header .contacts{
+        display:none;
+    }
+    .siteName h2{
+        margin:0;
+        font-size:12px;
+    }
+    .siteName h1{
+        margin:0;
+
+        font-size:20px
+    }
+    header img{
+        margin:0;
+    }
+    .footerContainer{
+        width: 450px;
+    }
+    header{
+        margin-bottom:40px;
+    }
+
+    .col{
+        border-right: 0 !important;
+        border-bottom: 1px solid white;
+        width:100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .container{
+
+        width: 280px;
+    }
+    .footerContainer{
+        width: 280px;
+    }
+    header{
+        margin-bottom:40px;
+    }
+    .col{
+        border-right: 0 !important;
+        border-bottom: 1px solid white;
+        width:100%;
+    }
+}
 
 
 
