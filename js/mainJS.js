@@ -33,5 +33,14 @@ $(document).ready(function(){
     //     })
     // }
 
-});
 
+
+//////Для ТАБООВ///
+$(document).on('click','aside a',
+function(){
+    $('.activeTab').removeClass('activeTab');
+    $(this).addClass('activeTab');
+
+}
+);
+});
